@@ -1,0 +1,151 @@
+@import url(/css/variables1.css);
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: var(--color-3);
+}
+
+.banner{
+    display: flex;
+    background-color: blue;
+    width: 107%;
+    justify-items: center;
+    align-items: center;
+    margin-left: -5%;
+    margin-top: -5%;
+    z-index: -1;
+}
+
+.banner img{
+    display: flex;
+    height: 100%;
+    width: 120%;
+    z-index: -1;
+}
+
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    padding-top: 2.5%;
+    padding-bottom: 2.2%;
+    margin-top: -80%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.267);
+    backdrop-filter: blur(1px);                    
+    background-color: blue;
+}
+.back img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.target{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70%;
+    width: 100%;
+    padding-bottom: 25%;
+    background-color: var(--color-9);
+    margin-top: 50%;
+    border-radius: 15px;
+}
+
+.titles{
+    display: flex;
+    position: relative;
+    flex-direction: row ;
+    gap: 2%;
+    width: 90%;
+    margin-left: 6%;
+    padding-bottom: 0%;
+    z-index: 1;
+    background-color: aqua;
+    background-color: rgba(0, 0, 255, 0.358);
+}
+
+.cold h1{
+    display: flex;
+    font-size: 100%;
+    font-family: "inter";
+    color: var(--color-1);
+}
+.music h1{
+    display: flex;
+    font-size: 100%;
+    font-family: "inter";
+    color: var(--color-2);
+}
+
+.Timg{
+    display: flex;
+    position: relative;
+    margin-top: 12%;
+    right: 90%;
+    background-color: cornflowerblue;
+    z-index: 2;
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+    gap: 0%;
+    position: relative;
+    height: 110%;
+}
+
+.calender{
+    display: flex;
+    flex-direction: row;
+    gap: 0%;
+    position: relative;
+    height: 110%;
+}
+
+.location img{
+    display: flex;
+    position: relative;
+    left: 80%;
+    right: -97%;
+    background-color: aquamarine;
+}
+
+.location p{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-family: "inter-regular";
+    font-size: 30%;
+    top: 10%;
+    left: 100%;
+    width: 120px;
+    background-color: blueviolet;
+}
+
+.calender p{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-family: "inter-regular";
+    font-size: 30%;
+    top: 100%;
+    left: 100%;
+    width: 120px;
+    background-color: blueviolet;
+}
+
+.calender img{
+    display: flex;
+    position: relative;
+    top: 100%;
+    left: 80%;
+    right: -97%;
+    background-color: aquamarine;
+}
