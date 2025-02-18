@@ -1,0 +1,21 @@
+:root{
+    --color-1: #000000;
+    --color-2: #761CBC;
+    --color-3: #ede9ff4c;
+    --color-4: #EDE9FF;
+    --color-5: #FFF5D7;
+    --color-6: #FFECEC;
+    --color-7: #E4FFEA;
+    --color-8: #333333;
+    --color-9: white;
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(/storage/font/fonts/Inter/Inter_18pt-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "inter-regular";
+    src: url(/storage/font/fonts/Inter/Inter_18pt-Regular.ttf);
+}
