@@ -8,14 +8,24 @@
     --color-7: #E4FFEA;
     --color-8: #333333;
     --color-9: white;
+    --color-10: #761CBC;
+    --color-11: #0092FC;
 }
 
 @font-face {
     font-family: "inter";
-    src: url(/storage/font/fonts/Inter/Inter_18pt-SemiBold.ttf);
+    src: url(/storage/fonts/Inter/Inter_18pt-SemiBold.ttf);
 }
 
 @font-face {
-    font-family: "inter-regular";
-    src: url(/storage/font/fonts/Inter/Inter_18pt-Regular.ttf);
+    font-family: "regular";
+    src: url(/storage/fonts/Inter/Inter_18pt-Regular.ttf);
+}
+@font-face {
+    font-family: "medium";
+    src: url(/storage/fonts/Inter/Inter_18pt-Medium.ttf);
+}
+@font-face {
+    font-family: "mixed";
+    src: url(/storage/fonts/DM_Sans/static/DMSans_18pt-Thin.ttf);
 }

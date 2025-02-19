@@ -19,14 +19,62 @@
         <section class="txt">
             <div class="div_txt">
                 <h1>Coldplay<span> Music of the Spheres</span></h1>
-                <h3>Gelora Bung Karno Stadium, Jakarta</h3>
-                <h2>November 15 2023</h2>
+                <p>Gelora Bung Karno Stadium, Jakarta</p>
+                <p>November 15 2023</p>
             </div>
-            <div>
-                <h1>50K+ Participants</h1>
+            <div class="div_txt2">
+                <img src="/storage/img/grupo1.png" alt="">
+                <h3>50K+ Participants</h3>
             </div>
         </section>
+        <section>
+            <div class="div_texto">
+                <h1>Description</h1>
+                <p>Integer id augue iaculis, iaculis orci ut, blandit quam. Donec in elit auctor, finibus quam in, phar. Proin id ligula dictum, covalis enim ut, facilisis massa. Mauris a nisi ut sapien blandit<br>imperdi. Interdum et malesuada fames ac ante ipsum primis<br>in faucibs. Sed posuere egestas nunc ut tempus. Fu ipsum dolor sit amet. <span>Read More..</span></p>
+            </div>
+        </section>
+        <section>
+            <div class="div_venue">
+                <h1>Venue & Location</h1>
+            </div>
+            <div id="map"></div>
+        </section>
     </main>
+    <script>
+        // Función para inicializar el mapa
+        function initMap() {
+          const sanFrancisco = { lat: 37.7749, lng: -122.4194 };
+    
+          // Crear un nuevo mapa centrado en San Francisco
+          const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 12,
+            center: sanFrancisco,
+          });
+    
+          // Agregar un marcador en San Francisco
+          const marker = new google.maps.Marker({
+            position: sanFrancisco,
+            map: map,
+            title: "San Francisco",
+          });
+        }
+      </script>
+    
+      <!-- Cargar la API de Google Maps con tu clave API -->
+      <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeQ204qAN24hSd-HrSmSagc6vu0CMZU20&callback=initMap&v=weekly"
+        async
+        defer
+      ></script>
+      <section class="caja_final">
+        <div class="caja1">
+            <h4>Start from</h4>
+            <h1>IDR1.100.000</h1>
+        </div>
+        <div class="caja2">
+            <button>Buy Ticket</button>
+        </div>
+      </section>
 </body>
 </html>
 
