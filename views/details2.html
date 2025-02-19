@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="banner">
-            <img src="../storage/img/banner2.png" alt="">
+            <img src="../storage/img/Rectangle 4105.png" alt="">
         </div>
         <div class="back">
             <a href="../index.html"><img src="../storage/img/back.png" alt=""></a>
@@ -41,14 +41,17 @@
         </section>
     </main>
     <script>
+        // Función para inicializar el mapa
         function initMap() {
           const sanFrancisco = { lat: 37.7749, lng: -122.4194 };
     
+          // Crear un nuevo mapa centrado en San Francisco
           const map = new google.maps.Map(document.getElementById("map"), {
             zoom: 12,
             center: sanFrancisco,
           });
     
+          // Agregar un marcador en San Francisco
           const marker = new google.maps.Marker({
             position: sanFrancisco,
             map: map,
@@ -57,6 +60,7 @@
         }
       </script>
     
+      <!-- Cargar la API de Google Maps con tu clave API -->
       <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeQ204qAN24hSd-HrSmSagc6vu0CMZU20&callback=initMap&v=weekly"
         async
@@ -68,11 +72,10 @@
             <h1>IDR1.100.000</h1>
         </div>
         <div class="caja2">
-            <a href="tickets1.html">
+            <a href="tickets2.html">
                 <button>Buy Ticket</button>
             </a>
         </div>
       </section>
 </body>
 </html>
-
